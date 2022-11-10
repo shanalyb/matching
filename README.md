@@ -17,9 +17,11 @@
     ├── .gitignore
     ├── Procfile
     ├── README.md
+    ├── catboost.ipynb
     ├── catboost_model
     ├── conn_comp
-    ├── catboost.ipynb
+    ├── inference.ipynb
+    ├── log_reg.ipynb
     ├── main.py
     ├── requirements.txt
     ├── runtime.txt
