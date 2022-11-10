@@ -1,9 +1,5 @@
-import re
 import pickle
-import pandas as pd
 import streamlit as st
-from sklearn.model_selection import train_test_split
-from sklearn.feature_extraction.text import TfidfVectorizer
 from catboost import CatBoostClassifier
 from stqdm import stqdm
 
