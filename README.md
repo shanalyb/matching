@@ -3,7 +3,7 @@
 ### Деплой
 Проект развернут на облачной платформе Heroku: [matching-itmo](https://matching-itmo.herokuapp.com/).
 При этом вычислительных мощностей на бесплатном тарифном плане недостаточно.
-![streamlit](https://github.com/shanalyb/matching/img/streamlit.png)
+![streamlit](https://github.com/shanalyb/matching/blob/master/img/streamlit.png)
 ### Структура репозитория
     .
     ├── .gitignore
