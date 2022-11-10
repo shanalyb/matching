@@ -4,6 +4,14 @@
 Проект развернут на облачной платформе Heroku: [matching-itmo](https://matching-itmo.herokuapp.com/).
 При этом вычислительных мощностей на бесплатном тарифном плане недостаточно.
 ![streamlit](https://github.com/shanalyb/matching/blob/master/img/streamlit.png)
+### Результаты
+
+| Model                     | F1   | Recall | Presicion |
+|---------------------------|------|--------|-----------|
+| LogisticRegression        | 0.79 | 0.67   | 0.96      |
+| CatBoostClassifier        | 0.92 | 0.86   | 0.98      |
+
+
 ### Структура репозитория
     .
     ├── .gitignore
