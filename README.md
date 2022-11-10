@@ -17,3 +17,14 @@
     ├── runtime.txt
     ├── setup.sh
     └── tfidf.pickle
+
+### Минимальное необходимое оборудование
+CPU: 1 vCPU, 4 Gb RAM  
+
+i5-1035G1
+~80 запросов в секунду  
+### Масштабирование
+Использование Yandex Container Solution  
+### Метрики
+F1-score, recall, precision.  
+Был выбран recall, т.к. данные не сбалансированы.
