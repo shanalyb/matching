@@ -5,6 +5,7 @@ import streamlit as st
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from catboost import CatBoostClassifier
+from stqdm import stqdm
 
 @st.cache(allow_output_mutation=True)
 def load_model():
@@ -24,7 +25,7 @@ def load_conn_comp():
 
 def match_company(model, veczr, connected_components_list, input_name):
     predict_lst = []
-    for group in connected_components_list:
+    for group in stqdm(connected_components_list):
         group_lst = [input_name] * len(list(group))
         input_vec = veczr.transform(group_lst)
         group_vec = veczr.transform(list(group))
