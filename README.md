@@ -3,6 +3,7 @@
 ### Деплой
 Проект развернут на облачной платформе Heroku: [matching-itmo](https://matching-itmo.herokuapp.com/).
 При этом вычислительных мощностей на бесплатном тарифном плане недостаточно.
+![streamlit](https://github.com/shanalyb/matching/img/streamlit.png)
 ### Структура репозитория
     .
     ├── .gitignore
@@ -10,7 +11,7 @@
     ├── README.md
     ├── catboost_model
     ├── conn_comp
-    ├── main.ipynb
+    ├── catboost.ipynb
     ├── main.py
     ├── requirements.txt
     ├── runtime.txt
