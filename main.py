@@ -7,16 +7,19 @@ from stqdm import stqdm
 def load_model():
     model = CatBoostClassifier()
     model.load_model('catboost_model', format='cbm')
+    
     return model
 
 @st.cache(allow_output_mutation=True)
 def load_vectorizer():
     vectorizer = pickle.load(open("tfidf.pickle", "rb"))
+
     return vectorizer
 
 @st.cache(allow_output_mutation=True)
 def load_conn_comp():
     conn_comp_lst = pickle.load(open("conn_comp", "rb"))
+
     return conn_comp_lst
 
 def match_company(model, veczr, connected_components_list, input_name):
